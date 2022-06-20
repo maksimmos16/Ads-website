@@ -1,0 +1,32 @@
+2022-05-06T06:22:45+00:00 CRITICAL Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /var/www/html/wp-includes/PHPMailer/PHPMailer.php:1284
+Stack trace:
+#0 /var/www/html/wp-content/plugins/dhe-form/includes/functions.php(678): PHPMailer\PHPMailer\PHPMailer->setFrom('', 'Easy Way', false)
+#1 /var/www/html/wp-content/plugins/dhe-form/includes/functions.php(482): dhe_form_phpmailer(Array, 'Reset Password', ': Blu', Array, Array)
+#2 /var/www/html/wp-content/plugins/dhe-form/includes/submission.php(351): dhe_form_send_email(Array, 'Reset Password', ': Blu', 'From: Easy Way ...', Array)
+#3 /var/www/html/wp-content/plugins/dhe-form/includes/submission.php(255): DHE_Form_Submission->_send_mail()
+#4 /var/www/html/wp-content/plugins/dhe-form/includes/submission.php(26): DHE_Form_Submission->_submit()
+#5 /var/www/html/wp-content/plugins/dhe-form/dhe-form.php(220): DHE_Form_Submission::get_instance(true)
+#6 /var/www/html/wp-includes/class-wp-hook.php(303): DHEForm->form_submit('')
+#7 /var/www/html/wp-includes/class-wp-hook.php(327): WP in /var/www/html/wp-includes/PHPMailer/PHPMailer.php on line 1284
+
+2022-05-06T06:23:05+00:00 CRITICAL Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /var/www/html/wp-includes/PHPMailer/PHPMailer.php:1284
+Stack trace:
+#0 /var/www/html/wp-content/plugins/dhe-form/includes/functions.php(678): PHPMailer\PHPMailer\PHPMailer->setFrom('', 'Easy Way', false)
+#1 /var/www/html/wp-content/plugins/dhe-form/includes/functions.php(482): dhe_form_phpmailer(Array, 'Reset Password', ': Blu', Array, Array)
+#2 /var/www/html/wp-content/plugins/dhe-form/includes/submission.php(351): dhe_form_send_email(Array, 'Reset Password', ': Blu', 'From: Easy Way ...', Array)
+#3 /var/www/html/wp-content/plugins/dhe-form/includes/submission.php(255): DHE_Form_Submission->_send_mail()
+#4 /var/www/html/wp-content/plugins/dhe-form/includes/submission.php(26): DHE_Form_Submission->_submit()
+#5 /var/www/html/wp-content/plugins/dhe-form/dhe-form.php(220): DHE_Form_Submission::get_instance(true)
+#6 /var/www/html/wp-includes/class-wp-hook.php(303): DHEForm->form_submit('')
+#7 /var/www/html/wp-includes/class-wp-hook.php(327): WP in /var/www/html/wp-includes/PHPMailer/PHPMailer.php on line 1284
+
+2022-05-06T07:14:45+00:00 CRITICAL Uncaught Error: Call to a member function bidcount() on null in /var/www/html/wp-content/plugins/directorypress/public/directorypress-widgets/bids_widget.php:10
+Stack trace:
+#0 /var/www/html/wp-content/plugins/directorypress/includes/directorypress_functions.php(268): include()
+#1 /var/www/html/wp-content/plugins/directorypress/includes/core/widgets/directorypress_general_widgets.php(26): directorypress_display_template('/var/www/html/w...', Array)
+#2 /var/www/html/wp-includes/class-wp-widget.php(393): directorypress_bids_widget->widget(Array, Array)
+#3 /var/www/html/wp-includes/widgets.php(831): WP_Widget->display_callback(Array, Array)
+#4 /var/www/html/wp-content/themes/classiadspro/includes/framework/sidebar-generator.php(140): dynamic_sidebar('sidebar-2')
+#5 /var/www/html/wp-content/themes/classiadspro/includes/framework/sidebar-generator.php(211): classiadsproSidebarGenerator->get_sidebar('blog')
+#6 /var/www/html/wp-content/themes/classiadspro/sidebar.php(5): pacz_sidebar_generator('get_sidebar', 'blog') in /var/www/html/wp-content/plugins/directorypress/public/directorypress-widgets/bids_widget.php on line 10
+

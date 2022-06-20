@@ -1,0 +1,55 @@
+2022-06-08T15:57:56+00:00 CRITICAL Uncaught Error: Call to a member function bidcount() on null in /var/www/html/wp-content/plugins/directorypress/public/directorypress-widgets/bids_widget.php:10
+Stack trace:
+#0 /var/www/html/wp-content/plugins/directorypress/includes/directorypress_functions.php(268): include()
+#1 /var/www/html/wp-content/plugins/directorypress/includes/core/widgets/directorypress_general_widgets.php(26): directorypress_display_template('/var/www/html/w...', Array)
+#2 /var/www/html/wp-includes/class-wp-widget.php(393): directorypress_bids_widget->widget(Array, Array)
+#3 /var/www/html/wp-includes/widgets.php(835): WP_Widget->display_callback(Array, Array)
+#4 /var/www/html/wp-content/themes/classiadspro/includes/framework/sidebar-generator.php(140): dynamic_sidebar('sidebar-10')
+#5 /var/www/html/wp-content/themes/classiadspro/includes/framework/sidebar-generator.php(211): classiadsproSidebarGenerator->get_sidebar(4427)
+#6 /var/www/html/wp-content/themes/classiadspro/sidebar.php(7): pacz_sidebar_generator('get_sidebar', 4427)
+#7 in /var/www/html/wp-content/plugins/directorypress/public/directorypress-widgets/bids_widget.php on line 10
+
+2022-06-08T15:58:03+00:00 CRITICAL Uncaught Error: Call to a member function bidcount() on null in /var/www/html/wp-content/plugins/directorypress/public/directorypress-widgets/bids_widget.php:10
+Stack trace:
+#0 /var/www/html/wp-content/plugins/directorypress/includes/directorypress_functions.php(268): include()
+#1 /var/www/html/wp-content/plugins/directorypress/includes/core/widgets/directorypress_general_widgets.php(26): directorypress_display_template('/var/www/html/w...', Array)
+#2 /var/www/html/wp-includes/class-wp-widget.php(393): directorypress_bids_widget->widget(Array, Array)
+#3 /var/www/html/wp-includes/widgets.php(835): WP_Widget->display_callback(Array, Array)
+#4 /var/www/html/wp-content/themes/classiadspro/includes/framework/sidebar-generator.php(140): dynamic_sidebar('sidebar-10')
+#5 /var/www/html/wp-content/themes/classiadspro/includes/framework/sidebar-generator.php(211): classiadsproSidebarGenerator->get_sidebar(4427)
+#6 /var/www/html/wp-content/themes/classiadspro/sidebar.php(7): pacz_sidebar_generator('get_sidebar', 4427)
+#7 in /var/www/html/wp-content/plugins/directorypress/public/directorypress-widgets/bids_widget.php on line 10
+
+2022-06-08T16:09:29+00:00 CRITICAL Uncaught Error: Call to a member function bidcount() on null in /var/www/html/wp-content/plugins/directorypress/public/directorypress-widgets/bids_widget.php:10
+Stack trace:
+#0 /var/www/html/wp-content/plugins/directorypress/includes/directorypress_functions.php(268): include()
+#1 /var/www/html/wp-content/plugins/directorypress/includes/core/widgets/directorypress_general_widgets.php(26): directorypress_display_template('/var/www/html/w...', Array)
+#2 /var/www/html/wp-includes/class-wp-widget.php(393): directorypress_bids_widget->widget(Array, Array)
+#3 /var/www/html/wp-includes/widgets.php(835): WP_Widget->display_callback(Array, Array)
+#4 /var/www/html/wp-content/themes/classiadspro/includes/framework/sidebar-generator.php(140): dynamic_sidebar('sidebar-10')
+#5 /var/www/html/wp-content/themes/classiadspro/includes/framework/sidebar-generator.php(211): classiadsproSidebarGenerator->get_sidebar(4427)
+#6 /var/www/html/wp-content/themes/classiadspro/sidebar.php(7): pacz_sidebar_generator('get_sidebar', 4427)
+#7 in /var/www/html/wp-content/plugins/directorypress/public/directorypress-widgets/bids_widget.php on line 10
+
+2022-06-08T16:09:53+00:00 CRITICAL Uncaught Error: Call to a member function bidcount() on null in /var/www/html/wp-content/plugins/directorypress/public/directorypress-widgets/bids_widget.php:10
+Stack trace:
+#0 /var/www/html/wp-content/plugins/directorypress/includes/directorypress_functions.php(268): include()
+#1 /var/www/html/wp-content/plugins/directorypress/includes/core/widgets/directorypress_general_widgets.php(26): directorypress_display_template('/var/www/html/w...', Array)
+#2 /var/www/html/wp-includes/class-wp-widget.php(393): directorypress_bids_widget->widget(Array, Array)
+#3 /var/www/html/wp-includes/widgets.php(835): WP_Widget->display_callback(Array, Array)
+#4 /var/www/html/wp-content/themes/classiadspro/includes/framework/sidebar-generator.php(140): dynamic_sidebar('sidebar-10')
+#5 /var/www/html/wp-content/themes/classiadspro/includes/framework/sidebar-generator.php(211): classiadsproSidebarGenerator->get_sidebar(4427)
+#6 /var/www/html/wp-content/themes/classiadspro/sidebar.php(7): pacz_sidebar_generator('get_sidebar', 4427)
+#7 in /var/www/html/wp-content/plugins/directorypress/public/directorypress-widgets/bids_widget.php on line 10
+
+2022-06-08T16:20:31+00:00 CRITICAL Uncaught Error: Call to a member function bidcount() on null in /var/www/html/wp-content/plugins/directorypress/public/directorypress-widgets/bids_widget.php:10
+Stack trace:
+#0 /var/www/html/wp-content/plugins/directorypress/includes/directorypress_functions.php(268): include()
+#1 /var/www/html/wp-content/plugins/directorypress/includes/core/widgets/directorypress_general_widgets.php(26): directorypress_display_template('/var/www/html/w...', Array)
+#2 /var/www/html/wp-includes/class-wp-widget.php(393): directorypress_bids_widget->widget(Array, Array)
+#3 /var/www/html/wp-includes/widgets.php(835): WP_Widget->display_callback(Array, Array)
+#4 /var/www/html/wp-content/themes/classiadspro/includes/framework/sidebar-generator.php(140): dynamic_sidebar('sidebar-10')
+#5 /var/www/html/wp-content/themes/classiadspro/includes/framework/sidebar-generator.php(211): classiadsproSidebarGenerator->get_sidebar(4427)
+#6 /var/www/html/wp-content/themes/classiadspro/sidebar.php(7): pacz_sidebar_generator('get_sidebar', 4427)
+#7 in /var/www/html/wp-content/plugins/directorypress/public/directorypress-widgets/bids_widget.php on line 10
+

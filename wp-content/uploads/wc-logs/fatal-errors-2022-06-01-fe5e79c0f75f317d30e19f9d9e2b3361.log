@@ -1,0 +1,80 @@
+2022-06-01T05:15:55+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /var/www/html/wp-content/plugins/dhe-form/includes/widgets/submit_button.php:157
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): DHE_Form_Widget_Submit_Button->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2116): Elementor\ in /var/www/html/wp-content/plugins/dhe-form/includes/widgets/submit_button.php on line 157
+
+2022-06-01T05:16:04+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /var/www/html/wp-content/plugins/dhe-form/includes/widgets/submit_button.php:157
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): DHE_Form_Widget_Submit_Button->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2116): Elementor\ in /var/www/html/wp-content/plugins/dhe-form/includes/widgets/submit_button.php on line 157
+
+2022-06-01T08:10:53+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /var/www/html/wp-content/plugins/dhe-form/includes/widgets/submit_button.php:157
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): DHE_Form_Widget_Submit_Button->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2116): Elementor\ in /var/www/html/wp-content/plugins/dhe-form/includes/widgets/submit_button.php on line 157
+
+2022-06-01T11:33:24+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /var/www/html/wp-content/plugins/dhe-form/includes/widgets/submit_button.php:157
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): DHE_Form_Widget_Submit_Button->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/managers/widgets.php(336): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /var/www/html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /var/www/html/wp-includes/class-wp-hook. in /var/www/html/wp-content/plugins/dhe-form/includes/widgets/submit_button.php on line 157
+
+2022-06-01T11:37:32+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 67108872 bytes) in /var/www/html/wp-includes/class-wp-text-diff-renderer-table.php on line 422
+
+2022-06-01T11:37:46+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 67108872 bytes) in /var/www/html/wp-includes/class-wp-text-diff-renderer-table.php on line 419
+
+2022-06-01T11:37:58+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 67108872 bytes) in /var/www/html/wp-includes/class-wp-text-diff-renderer-table.php on line 422
+
+2022-06-01T11:43:37+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 67108872 bytes) in /var/www/html/wp-includes/class-wp-text-diff-renderer-table.php on line 422
+
+2022-06-01T11:43:48+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 67108872 bytes) in /var/www/html/wp-includes/class-wp-text-diff-renderer-table.php on line 422
+
+2022-06-01T14:00:23+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /var/www/html/wp-content/plugins/dhe-form/includes/widgets/submit_button.php:157
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): DHE_Form_Widget_Submit_Button->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/managers/widgets.php(336): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /var/www/html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /var/www/html/wp-includes/class-wp-hook. in /var/www/html/wp-content/plugins/dhe-form/includes/widgets/submit_button.php on line 157
+
+2022-06-01T14:02:04+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /var/www/html/wp-content/plugins/dhe-form/includes/widgets/submit_button.php:157
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): DHE_Form_Widget_Submit_Button->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/managers/widgets.php(336): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /var/www/html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /var/www/html/wp-includes/class-wp-hook. in /var/www/html/wp-content/plugins/dhe-form/includes/widgets/submit_button.php on line 157
+
+2022-06-01T14:04:19+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /var/www/html/wp-content/plugins/dhe-form/includes/widgets/submit_button.php:157
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): DHE_Form_Widget_Submit_Button->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/managers/widgets.php(336): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /var/www/html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /var/www/html/wp-includes/class-wp-hook. in /var/www/html/wp-content/plugins/dhe-form/includes/widgets/submit_button.php on line 157
+

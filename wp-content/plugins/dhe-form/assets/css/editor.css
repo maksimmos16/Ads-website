@@ -1,0 +1,129 @@
+/* .dhe-form{
+	background: url("../images/widget-icon.svg") no-repeat scroll center center;
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	background-size: 25px auto;
+} */
+[class^=dhe-form-icon-widget]{
+    background: url("../images/form-items2.png") no-repeat scroll 0 0 transparent;
+	background-size: auto !important;
+	border: 1px solid #ccc;
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+}
+.dhe-form-icon-widget-form{
+	 background: url("../images/menu-icon.svg") no-repeat scroll 0 0 transparent;
+	 background-size: 28px auto !important;
+	 border: none !important;
+	 background-position: center center;
+}
+.dhe-form-icon-widget-text{
+    background-position: -728px center !important;
+}
+.dhe-form-icon-widget-label{
+    background-position: -728px center !important;
+}
+.dhe-form-icon-widget-email{
+    background-position: -153px center !important;
+}
+.dhe-form-icon-widget-hidden{
+    background-position: -537px center !important;
+}
+.dhe-form-icon-widget-paypal{
+    background-position: -56px center !important;
+}
+.dhe-form-icon-widget-recaptcha,
+.dhe-form-icon-widget-captcha{
+    background-position: -379px center !important;
+}
+.dhe-form-icon-widget-datetime{
+    background-position: -217px center !important;
+}
+.dhe-form-icon-widget-color{
+    background-position: 7px center !important;
+}
+.dhe-form-icon-widget-password{
+    background-position: -344px center !important;
+}
+.dhe-form-icon-widget-radio{
+    background-position: -697px center !important;
+}
+.dhe-form-icon-widget-file{
+    background-position: -505px center !important;
+}
+.dhe-form-icon-widget-checkbox{
+    background-position: -665px center !important;
+}
+.dhe-form-icon-widget-select{
+    background-position: -408px center !important;
+}
+.dhe-form-icon-widget-steps,
+.dhe-form-icon-widget-textarea,
+.dhe-form-icon-widget-response{
+    background-position: -25px center !important;
+}
+.dhe-form-icon-widget-slider{
+    background-position: -632px center !important;
+}
+.dhe-form-icon-widget-rate{
+    background-position: -861px center !important;
+}
+.dhe-form-icon-widget-submit-button{
+    background-position: -569px center !important;
+}
+
+.dhe-form-recipient-lists{
+	width: 100%;
+	border-collapse: separate;
+    border-spacing: 0;
+    vertical-align: middle;
+}
+.dhe-form-option-list input[type=checkbox], 
+.dhe-form-option-list input[type=radio]{
+	width: auto !important;
+}
+.dhe_form_name ~ span {
+  color: #f00 !important;
+}
+.dhe-form-option-list table{
+	width: 100%;
+}
+.dhe-form-option-list table thead td{
+	text-align:center;
+	font-size: 80%;
+}
+.dhe-form-conditional-col {
+    display: block;
+    float: left;
+    padding: 5px;
+    width: 15%;
+    position: relative;
+}
+.dhe-form-conditional label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.dhe-form-conditional input {
+	height: 35px !important;
+	line-height: 35px !important;
+}
+.dhe-form-conditional select {
+	height: 35px !important;
+	line-height: 35px !important;
+}
+.dhe-form-conditional a {
+	border: 1px solid #ccc !important;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display: inline-block;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 20px;
+}
